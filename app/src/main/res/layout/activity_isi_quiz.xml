@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".IsiQuizActivity">
+
+    <ImageButton
+        android:id="@+id/imagePanah"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/panah"
+        android:contentDescription="Nafigasi kembali"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/jdulQuiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Hardware dan Software"
+        android:textColor="#FC000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/noWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iconwak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/soalQuiz"
+        android:layout_width="327dp"
+        android:layout_height="187dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Apa saja komponen utama sebuah komputer?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Jawab :"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pilihA"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="start|center"
+        android:paddingStart="5dp"
+        android:text="A. CPU, Monitor, Keyboard, Antivirus"
+        android:textColor="#FEFEFE"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pilihB"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="start|center"
+        android:paddingStart="5dp"
+        android:text="B. RAM, CPU, GPU, SSD"
+        android:textColor="#FEFEFE"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pilihC"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="start|center"
+        android:paddingStart="5dp"
+        android:text="C. Mouse, Printer, Flashdisk, Speaker"
+        android:textColor="#FEFEFE"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pilihD"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="start|center"
+        android:paddingStart="5dp"
+        android:text="D. Motherboard, Software, Kabel LAN, Aplikasi"
+        android:textColor="#FEFEFE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_quiz"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">quiz</string>
+    <string name="grade">Grade</string>
+    <string name="start">Start</string>
+    <string name="home">Home</string>
+    <string name="quiz">Quiz</string>
+    <string name="account">Account</string>
+    <string name="menuBut">menuBut</string>
+
+</resources>

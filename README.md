@@ -7,6 +7,9 @@
 |NIM : 312310621|
 |-----------|
 
+|Nama Project : Quiz|
+|-----------|
+
 # STORY BOARD
 ![Story Bord](https://github.com/user-attachments/assets/7c13859a-f30a-4428-9eab-5bbcc3caba20)
 
